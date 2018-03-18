@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "nodemailer": "^4.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
