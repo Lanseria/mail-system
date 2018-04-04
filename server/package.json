@@ -5,6 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "koa": "^2.5.0",
+    "koa-jsonp": "^2.0.2",
+    "koa-router": "^7.4.0",
     "nodemailer": "^4.6.3"
   },
   "devDependencies": {},

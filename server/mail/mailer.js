@@ -7,7 +7,7 @@ const account = {
   pass: config.accountPass
 };
 
-let transporter = nodemailer.createTransport({
+const transporter = nodemailer.createTransport({
   host: 'smtp.qq.com',
   port: 465,
   secure: true, // true for 465, false for other ports
@@ -18,7 +18,7 @@ let transporter = nodemailer.createTransport({
 });
 
 // setup email data with unicode symbols
-let mailOptions = {
+const mailOptions = {
   from: '"Lanseria vhik 👻" <root@limonplayer.cn>', // sender address
   to: '564265135@qq.com', // list of receivers
   subject: 'Hello ✔', // Subject line
@@ -34,4 +34,4 @@ let mailOptions = {
 //   console.log('Message sent: %s', info.messageId);
 // });
 
-exports = module.exports = transporter
+exports = module.exports = { transporter, mailOptions }
