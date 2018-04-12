@@ -9,6 +9,11 @@ jobs:
   include:
     - stage: install_test
       script:
+        - cd client
+        - yarn
+        - yarn lint
+        - yarn build
+        - cd ..
         - cd server
         - yarn
         - cd ..

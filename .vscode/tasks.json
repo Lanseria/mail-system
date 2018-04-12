@@ -5,14 +5,14 @@
   "tasks": [
     {
       "type": "npm",
-      "script": "start",
-      "path": "client/",
+      "script": "dev",
+      "path": "server/",
       "problemMatcher": []
     },
     {
       "type": "npm",
       "script": "dev",
-      "path": "server/",
+      "path": "client/",
       "problemMatcher": []
     }
   ]
